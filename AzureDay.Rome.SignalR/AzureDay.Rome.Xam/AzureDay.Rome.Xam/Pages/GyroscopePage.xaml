@@ -5,6 +5,7 @@
              xmlns:markupExtensions="clr-namespace:Xam.Zero.MarkupExtensions;assembly=Xam.Zero"
              xmlns:home="clr-namespace:AzureDay.Rome.Xam.ViewModels;assembly=AzureDay.Rome.Xam"
              x:Name="Gyroscope"
+             Title="Move square with gyroscope"
              BindingContext="{markupExtensions:ShellPagedViewModelMarkup ViewModel={x:Type home:GyroscopeViewModel}, Page={x:Reference Gyroscope}}"
              x:Class="AzureDay.Rome.Xam.GyroscopePage">
     
@@ -25,9 +26,9 @@
         
         <StackLayout Grid.Row="1">
         
-            <Button 
-                Text="{Binding IsGyroscopeActive, Converter={StaticResource IsActiveToTestConverter}}" 
-                Command="{Binding ToggleGyroscopeCommand}"/>
+            <!-- <Button  -->
+            <!--     Text="{Binding IsGyroscopeActive, Converter={StaticResource IsActiveToTestConverter}}"  -->
+            <!--     Command="{Binding ToggleGyroscopeCommand}"/> -->
             <Button 
                 Text="Reset" 
                 Command="{Binding ResetCommand}"/>

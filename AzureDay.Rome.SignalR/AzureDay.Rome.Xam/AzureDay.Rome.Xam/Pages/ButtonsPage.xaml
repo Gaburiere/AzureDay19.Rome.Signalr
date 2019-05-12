@@ -6,6 +6,7 @@
              xmlns:home="clr-namespace:AzureDay.Rome.Xam.ViewModels;assembly=AzureDay.Rome.Xam"
              x:Name="Buttons"
              x:Class="AzureDay.Rome.Xam.ButtonsPage"
+             Title="Move square with buttons"
              BindingContext="{markupExtensions:ShellPagedViewModelMarkup ViewModel={x:Type home:ButtonsViewModel}, Page={x:Reference Buttons}}"
              >
 
