@@ -328,3 +328,24 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/AzureDay.Rome.Remote.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/AzureDay.Rome.Remote.meta.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/Bridge.Messenger.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/Bridge.Messenger.meta.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/Bridge.Navigation.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/Bridge.Navigation.meta.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/Bridge.Navigation.meta.min.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/Bridge.Navigation.min.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/Bridge.Spaf.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/Bridge.Spaf.meta.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/bridge.console.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/bridge.ioc.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/bridge.ioc.meta.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/bridge.ioc.meta.min.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/bridge.ioc.min.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/bridge.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/bridge.meta.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/index.html
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/index.min.html
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/jquery-2.2.4.js
+AzureDay.Rome.SignalR/AzureDay.Rome.Remote.Web/wwwroot/bridge/jquery-2.2.4.min.js

@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using Xam.Zero.ViewModels;
 using Xamarin.Essentials;
@@ -52,6 +53,14 @@ namespace AzureDay.Rome.Xam.ViewModels
             {
                 // Other error has occurred.
             }
+        }
+
+        protected override Task PrepareModel(object data)
+        {
+            
+            
+            return base.PrepareModel(data);
+            
         }
     }
 }
