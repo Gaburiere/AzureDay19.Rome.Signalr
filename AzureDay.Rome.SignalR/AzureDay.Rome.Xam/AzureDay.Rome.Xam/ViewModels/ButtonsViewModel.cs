@@ -16,9 +16,9 @@ namespace AzureDay.Rome.Xam.ViewModels
         public int Top { get; set; }
         public int Left { get; set; }
 
-        public ICommand AddTopCommand { get; set; }
-        public ICommand AddLeftCommand { get; set; }
-        public ICommand ResetCommand { get; set; }
+        public ICommand AddTopCommand { get; private set; }
+        public ICommand AddLeftCommand { get; private set; }
+        public ICommand ResetCommand { get; private set; }
         
         public ButtonsViewModel(IMoveItHubService moveItHubService)
         {

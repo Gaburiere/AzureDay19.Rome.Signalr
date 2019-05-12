@@ -28,6 +28,9 @@
             <Button 
                 Text="{Binding IsGyroscopeActive, Converter={StaticResource IsActiveToTestConverter}}" 
                 Command="{Binding ToggleGyroscopeCommand}"/>
+            <Button 
+                Text="Reset" 
+                Command="{Binding ResetCommand}"/>
             
         </StackLayout>
     </Grid>

@@ -20,12 +20,19 @@ namespace AzureDay.Rome.Xam.ViewModels
         public bool IsGyroscopeActive => Gyroscope.IsMonitoring;
         
         public ICommand ToggleGyroscopeCommand { get; private set; }
+        public ICommand ResetCommand { get; private set; }
 
         public GyroscopeViewModel(IMoveItHubService moveItHubService)
         {
             this._moveItHubService = moveItHubService;
             this._speed = SensorSpeed.UI;
             this.ToggleGyroscopeCommand = new Command(() => this.InnerToggleGyroscope());
+            this.ResetCommand = new Command(() =>
+            {
+                this.Left = 0;
+                this.Top = 0;
+            });
+            
             Gyroscope.ReadingChanged += this.Gyroscope_ReadingChanged;
         }
         
@@ -35,8 +42,8 @@ namespace AzureDay.Rome.Xam.ViewModels
             // Process Angular Velocity X, Y, and Z reported in rad/s
             Console.WriteLine($"Reading: X: {data.AngularVelocity.X}, Y: {data.AngularVelocity.Y}, Z: {data.AngularVelocity.Z}");
 
-            this.Top += (int) data.AngularVelocity.Y;
-            this.Left += (int) data.AngularVelocity.X;
+            this.Top += (int) data.AngularVelocity.X;
+            this.Left += (int) data.AngularVelocity.Y;
         }
 
 
